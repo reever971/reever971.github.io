@@ -1,276 +1,137 @@
+```html
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Reever Firmin | BTS SIO SISR</title>
+    <title>Reever Firmin | Portfolio BTS SIO SISR</title>
 
-    <meta name="description"
-          content="Portfolio de Reever Firmin, étudiant en BTS SIO SISR spécialisé dans les systèmes, réseaux et la cybersécurité.">
+    <link rel="stylesheet" href="style.css">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
-    <!-- Police -->
+    <!-- Polices -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Special+Elite&display=swap"
-          rel="stylesheet">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <!-- Icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
 
-    <!-- ================= INTRO ================= -->
-
-    <div class="loading-screen">
-
-        <div class="loading-content">
-
-            <div class="loading-warning">
-                WARNING
-            </div>
-
-            <h1>SYSTEM INITIALIZING</h1>
-
-            <p>
-                S.T.A.R.S. // PERSONNEL DATABASE
-            </p>
-
-            <div class="loading-bar">
-                <span></span>
-            </div>
-
-            <small>
-                ACCESSING DATABASE...
-            </small>
-
-        </div>
-
-    </div>
-
-
-    <!-- ================= NAVIGATION ================= -->
-
+    <!-- NAVIGATION -->
     <header>
-
-        <nav>
-
-            <div class="logo">
-                RF<span>.</span>
-            </div>
-
-            <div class="system-status">
-                <span class="status-dot"></span>
-                SYSTEM ONLINE
-            </div>
+        <nav class="navbar">
+            <a href="#accueil" class="logo">REEVER<span>.</span></a>
 
             <ul class="nav-links">
-
-                <li>
-                    <a href="#accueil">Accueil</a>
-                </li>
-
-                <li>
-                    <a href="#apropos">À propos</a>
-                </li>
-
-                <li>
-                    <a href="#competences">Compétences</a>
-                </li>
-
-                <li>
-                    <a href="#projets">Projets</a>
-                </li>
-
-                <li>
-                    <a href="#experiences">Expériences</a>
-                </li>
-
-                <li>
-                    <a href="#formation">Formation</a>
-                </li>
-
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#formation">Formation</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#experiences">Expériences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-
         </nav>
-
     </header>
 
 
-    <!-- ================= ACCUEIL ================= -->
+    <!-- ACCUEIL -->
+    <section id="accueil">
 
-    <section id="accueil" class="hero">
+        <div class="accueil-overlay"></div>
 
-        <div class="hero-overlay"></div>
+        <div class="accueil-contenu">
 
-        <div class="hero-content">
-
-            <div class="file-number">
-                FILE ID : RF-2026-SISR
-            </div>
-
-            <p class="classified">
-                CLASSIFIED // PERSONNEL FILE
-            </p>
+            <p class="sur-titre">PORTFOLIO NUMÉRIQUE — 2026/2027</p>
 
             <h1>
-                Reever Firmin
+                REEVER<br>
+                <span>FIRMIN</span>
             </h1>
 
-            <h2>
-                Étudiant en
-                <span>BTS SIO – SISR</span>
-            </h2>
+            <h2>Étudiant en BTS SIO — Option SISR</h2>
 
-            <div class="red-line"></div>
-
-            <p class="hero-description">
-
-                Passionné par l'informatique, les systèmes,
-                les réseaux et la cybersécurité.
-
-                <br>
-
-                Je développe mes compétences techniques
-                à travers ma formation et mes projets.
-
+            <p class="accueil-texte">
+                Passionné par l'informatique, les systèmes, les réseaux
+                et la cybersécurité. Je développe progressivement mes
+                compétences pour construire mon avenir dans l'informatique.
             </p>
 
-            <div class="buttons">
+            <div class="stage-info">
+                <i class="fa-solid fa-calendar-days"></i>
+                <div>
+                    <strong>RECHERCHE DE STAGE</strong>
+                    <p>Du 24 mai au 2 juillet 2027 — 6 semaines</p>
+                </div>
+            </div>
 
-                <a href="#projets" class="btn btn-primary">
-                    <i class="fa-solid fa-folder-open"></i>
-                    Voir mes projets
+            <div class="accueil-boutons">
+                <a href="#apropos" class="btn btn-principal">
+                    Découvrir mon profil
                 </a>
 
-                <a href="#contact" class="btn btn-secondary">
-                    <i class="fa-solid fa-terminal"></i>
+                <a href="#contact" class="btn btn-secondaire">
                     Me contacter
                 </a>
-
             </div>
 
         </div>
 
-        <div class="scroll-indicator">
-            <span>SCROLL TO ACCESS FILE</span>
-            <i class="fa-solid fa-chevron-down"></i>
+        <div class="accueil-bas">
+            <span>VICE CITY VIBES — IT MINDSET</span>
+            <span>01 / 07</span>
         </div>
 
     </section>
 
 
-    <!-- ================= A PROPOS ================= -->
+    <!-- À PROPOS -->
+    <section id="apropos" class="section">
 
-    <section id="apropos">
-
-        <div class="section-title">
-
-            <span class="section-code">
-                FILE_01
-            </span>
-
-            <h2>
-                À <span>propos</span>
-            </h2>
-
-            <p>
-                PERSONNEL IDENTIFICATION
-            </p>
-
+        <div class="titre-section">
+            <p>01 — QUI SUIS-JE ?</p>
+            <h2>À PROPOS <span>DE MOI</span></h2>
         </div>
 
-        <div class="about">
+        <div class="apropos-contenu">
 
-            <div class="about-text">
+            <div class="apropos-image">
+                <!-- Remplace cette image par ta photo -->
+                <img src="images/profil.jpg" alt="Photo de Reever Firmin">
+                <div class="image-legende">REEVER FIRMIN — BTS SIO</div>
+            </div>
 
-                <div class="terminal-title">
-                    <span></span>
-                    PERSONNEL_DATABASE.exe
-                </div>
+            <div class="apropos-texte">
+
+                <h3>Bienvenue dans mon univers.</h3>
 
                 <p>
-                    Je suis actuellement étudiant en
-                    <strong>BTS SIO – option SISR</strong>.
+                    Je suis étudiant en première année de BTS Services
+                    Informatiques aux Organisations, option Solutions
+                    d'Infrastructure, Systèmes et Réseaux (SISR), au
+                    lycée René Descartes.
                 </p>
 
                 <p>
-                    Je m'intéresse particulièrement à
-                    l'administration des systèmes et réseaux,
-                    au support informatique, aux infrastructures
+                    Je m'intéresse particulièrement à l'administration
+                    des systèmes et réseaux, au support informatique
                     et à la cybersécurité.
                 </p>
 
                 <p>
-                    Mon objectif est de développer mes compétences
-                    techniques grâce à des projets concrets et
-                    à une expérience professionnelle.
+                    Ma formation me permet de découvrir différents
+                    environnements informatiques et de développer
+                    progressivement mes compétences techniques.
                 </p>
 
-                <div class="terminal-command">
-                    > status: <span>ACTIVE</span>
-                </div>
-
-                <div class="terminal-command">
-                    > specialization: <span>SYSTEMS / NETWORKS</span>
-                </div>
-
-                <div class="terminal-command">
-                    > security_level: <span>LEARNING</span>
-                </div>
-
-            </div>
-
-
-            <div class="about-info">
-
-                <div class="info-header">
-                    PERSONNEL DATA
-                </div>
-
-                <p>
-                    <strong>NOM :</strong>
-                    Reever Firmin
-                </p>
-
-                <p>
-                    <strong>FORMATION :</strong>
-                    BTS SIO – SISR
-                </p>
-
-                <p>
-                    <strong>DIPLÔME :</strong>
-                    Bac STI2D
-                </p>
-
-                <p>
-                    <strong>SPÉCIALITÉ :</strong>
-                    Systèmes & Réseaux
-                </p>
-
-                <p>
-                    <strong>OBJECTIF :</strong>
-                    Alternance / Expérience
-                </p>
-
-                <p>
-                    <strong>SECTEUR :</strong>
-                    Île-de-France
-                </p>
-
-                <div class="classified-stamp">
-                    VERIFIED
+                <div class="apropos-tags">
+                    <span>Informatique</span>
+                    <span>Réseaux</span>
+                    <span>Linux</span>
+                    <span>Cybersécurité</span>
                 </div>
 
             </div>
@@ -280,172 +141,108 @@
     </section>
 
 
-    <!-- ================= COMPETENCES ================= -->
+    <!-- FORMATION -->
+    <section id="formation" class="section section-alternative">
 
-    <section id="competences">
+        <div class="titre-section">
+            <p>02 — MON PARCOURS</p>
+            <h2>FORMATION <span>ACADÉMIQUE</span></h2>
+        </div>
 
-        <div class="section-title">
+        <div class="formation-container">
 
-            <span class="section-code">
-                FILE_02
-            </span>
+            <div class="formation-card">
+                <div class="formation-date">2026 — 2028</div>
+                <div class="formation-icon">
+                    <i class="fa-solid fa-network-wired"></i>
+                </div>
 
-            <h2>
-                Mes <span>compétences</span>
-            </h2>
+                <h3>BTS SIO — Option SISR</h3>
 
-            <p>
-                TECHNICAL DATABASE
-            </p>
+                <h4>Lycée René Descartes</h4>
+
+                <p>
+                    Services Informatiques aux Organisations.
+                    Spécialisation dans les solutions d'infrastructure,
+                    les systèmes et les réseaux.
+                </p>
+            </div>
+
+            <div class="formation-card">
+                <div class="formation-date">Baccalauréat</div>
+                <div class="formation-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+
+                <h3>Baccalauréat STI2D</h3>
+
+                <h4>Architecture et Construction</h4>
+
+                <p>
+                    Formation technologique axée sur les sciences,
+                    les technologies, la conception et les projets.
+                </p>
+            </div>
 
         </div>
 
-
-        <div class="skills">
-
-            <div class="skill-card">
-
-                <div class="skill-number">
-                    01
-                </div>
-
-                <i class="fa-solid fa-network-wired"></i>
-
-                <h3>
-                    Réseaux
-                </h3>
-
-                <p>
-                    Notions de TCP/IP, adressage IP,
-                    DNS, DHCP et réseaux locaux.
-                </p>
-
-                <span class="skill-status">
-                    LEARNING
-                </span>
-
-            </div>
+    </section>
 
 
-            <div class="skill-card">
+    <!-- COMPÉTENCES -->
+    <section id="competences" class="section">
 
-                <div class="skill-number">
-                    02
-                </div>
+        <div class="titre-section">
+            <p>03 — MON SAVOIR-FAIRE</p>
+            <h2>MES <span>COMPÉTENCES</span></h2>
+        </div>
 
+        <p class="section-intro">
+            Des connaissances que je développe au cours de ma formation.
+        </p>
+
+        <div class="competences-container">
+
+            <div class="competence">
                 <i class="fa-brands fa-linux"></i>
-
-                <h3>
-                    Systèmes
-                </h3>
-
-                <p>
-                    Découverte et administration des
-                    environnements Windows et Linux.
-                </p>
-
-                <span class="skill-status">
-                    LEARNING
-                </span>
-
+                <h3>Linux / Ubuntu</h3>
+                <p>Découverte du système et utilisation du terminal.</p>
+                <span class="niveau">En apprentissage</span>
             </div>
 
+            <div class="competence">
+                <i class="fa-brands fa-windows"></i>
+                <h3>Windows</h3>
+                <p>Découverte de l'environnement Windows et de son administration.</p>
+                <span class="niveau">En apprentissage</span>
+            </div>
 
-            <div class="skill-card">
+            <div class="competence">
+                <i class="fa-solid fa-network-wired"></i>
+                <h3>Réseaux</h3>
+                <p>Adressage IP, notions TCP/IP, DNS et DHCP.</p>
+                <span class="niveau">En apprentissage</span>
+            </div>
 
-                <div class="skill-number">
-                    03
-                </div>
-
+            <div class="competence">
                 <i class="fa-solid fa-shield-halved"></i>
-
-                <h3>
-                    Cybersécurité
-                </h3>
-
-                <p>
-                    Découverte des menaces informatiques
-                    et des bonnes pratiques de sécurité.
-                </p>
-
-                <span class="skill-status">
-                    LEARNING
-                </span>
-
+                <h3>Cybersécurité</h3>
+                <p>Découverte des principes de sécurité informatique.</p>
+                <span class="niveau">En apprentissage</span>
             </div>
 
-
-            <div class="skill-card">
-
-                <div class="skill-number">
-                    04
-                </div>
-
-                <i class="fa-solid fa-headset"></i>
-
-                <h3>
-                    Support
-                </h3>
-
-                <p>
-                    Assistance utilisateur, diagnostic
-                    et résolution de problèmes techniques.
-                </p>
-
-                <span class="skill-status">
-                    LEARNING
-                </span>
-
+            <div class="competence">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML / CSS</h3>
+                <p>Création et mise en forme de pages web.</p>
+                <span class="niveau">En apprentissage</span>
             </div>
 
-
-            <div class="skill-card">
-
-                <div class="skill-number">
-                    05
-                </div>
-
-                <i class="fa-solid fa-code"></i>
-
-                <h3>
-                    Développement Web
-                </h3>
-
-                <p>
-                    HTML, CSS et création de sites web
-                    simples et responsives.
-                </p>
-
-                <span class="skill-status">
-                    ACTIVE
-                </span>
-
-            </div>
-
-
-            <div class="skill-card">
-
-                <div class="skill-number">
-                    06
-                </div>
-
-                <i class="fa-solid fa-cloud"></i>
-
-                <h3>
-                    Cloud
-                </h3>
-
-                <p>
-                    Découverte des environnements
-                    et ressources cloud.
-                </p>
-
-                <span class="skill-status">
-                    LEARNING
-                </span>
-
-            </div>
-
+            <div class="competence">
+                <i class="fa-solid fa-server"></i>
+                <h3>Systèmes</h3>
+                <p>Découverte des systèmes informatiques et de leur fonctionnement.</p>
+                <span class="niveau">En apprentissage</span>
             </div>
 
         </div>
@@ -453,265 +250,58 @@
     </section>
 
 
-    <!-- ================= PROJETS ================= -->
+    <!-- EXPÉRIENCES -->
+    <section id="experiences" class="section section-alternative">
 
-    <section id="projets">
-
-        <div class="section-title">
-
-            <span class="section-code">
-                FILE_03
-            </span>
-
-            <h2>
-                Mes <span>projets</span>
-            </h2>
-
-            <p>
-                PROJECT ARCHIVE
-            </p>
-
+        <div class="titre-section">
+            <p>04 — MON EXPÉRIENCE</p>
+            <h2>EXPÉRIENCES <span>PROFESSIONNELLES</span></h2>
         </div>
 
-
-        <div class="projects">
-
-
-            <div class="project-card">
-
-                <div class="project-image">
-                    <span>PROJECT_01</span>
-                    <i class="fa-solid fa-globe"></i>
-                </div>
-
-                <div class="project-content">
-
-                    <h3>
-                        Portfolio personnel
-                    </h3>
-
-                    <p>
-                        Création d'un portfolio professionnel
-                        en HTML et CSS pour présenter mon parcours,
-                        mes compétences et mes projets.
-                    </p>
-
-                    <div class="project-tags">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="project-card">
-
-                <div class="project-image">
-                    <span>PROJECT_02</span>
-                    <i class="fa-solid fa-server"></i>
-                </div>
-
-                <div class="project-content">
-
-                    <h3>
-                        Infrastructure réseau
-                    </h3>
-
-                    <p>
-                        Projet d'apprentissage autour de
-                        l'adressage IP, du DHCP, du DNS et
-                        de la communication entre machines.
-                    </p>
-
-                    <div class="project-tags">
-                        <span>TCP/IP</span>
-                        <span>DNS</span>
-                        <span>DHCP</span>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="project-card">
-
-                <div class="project-image">
-                    <span>PROJECT_03</span>
-                    <i class="fa-solid fa-terminal"></i>
-                </div>
-
-                <div class="project-content">
-
-                    <h3>
-                        Environnement Linux
-                    </h3>
-
-                    <p>
-                        Découverte du terminal Linux,
-                        des commandes, utilisateurs,
-                        fichiers et permissions.
-                    </p>
-
-                    <div class="project-tags">
-                        <span>LINUX</span>
-                        <span>BASH</span>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="project-card">
-
-                <div class="project-image">
-                    <span>PROJECT_04</span>
-                    <i class="fa-solid fa-lock"></i>
-                </div>
-
-                <div class="project-content">
-
-                    <h3>
-                        Cybersécurité
-                    </h3>
-
-                    <p>
-                        Découverte des principales menaces
-                        informatiques et des méthodes permettant
-                        de renforcer la sécurité d'un système.
-                    </p>
-
-                    <div class="project-tags">
-                        <span>SECURITY</span>
-                        <span>NETWORK</span>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= EXPERIENCES ================= -->
-
-    <section id="experiences">
-
-        <div class="section-title">
-
-            <span class="section-code">
-                FILE_04
-            </span>
-
-            <h2>
-                Mes <span>expériences</span>
-            </h2>
-
-            <p>
-                PROFESSIONAL ARCHIVE
-            </p>
-
-        </div>
-
-
-        <div class="timeline">
-
+        <div class="experiences-container">
 
             <div class="experience">
-
-                <span class="archive">
-                    ARCHIVE_01
-                </span>
-
                 <div class="experience-icon">
                     <i class="fa-solid fa-cash-register"></i>
                 </div>
 
                 <div>
-
-                    <h3>
-                        Hôte de caisse – Carrefour
-                    </h3>
-
-                    <div class="date">
-                        EXPÉRIENCE PROFESSIONNELLE
-                    </div>
-
+                    <h3>Hôte de caisse</h3>
+                    <h4>Carrefour</h4>
                     <p>
-                        Accueil et accompagnement des clients,
-                        gestion des opérations en caisse,
-                        travail en équipe et respect des procédures.
+                        Accueil des clients, encaissement et gestion
+                        des opérations de caisse.
                     </p>
-
                 </div>
-
             </div>
 
-
             <div class="experience">
-
-                <span class="archive">
-                    ARCHIVE_02
-                </span>
-
-                <div class="experience-icon">
-                    <i class="fa-solid fa-store"></i>
-                </div>
-
-                <div>
-
-                    <h3>
-                        Vendeur – Domia
-                    </h3>
-
-                    <div class="date">
-                        GUADELOUPE
-                    </div>
-
-                    <p>
-                        Accueil des clients, conseil,
-                        présentation des produits et
-                        participation à l'activité commerciale.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="experience">
-
-                <span class="archive">
-                    ARCHIVE_03
-                </span>
-
                 <div class="experience-icon">
                     <i class="fa-solid fa-helmet-safety"></i>
                 </div>
 
                 <div>
-
-                    <h3>
-                        Expérience dans le BTP
-                    </h3>
-
-                    <div class="date">
-                        EXPÉRIENCE PROFESSIONNELLE
-                    </div>
-
+                    <h3>Expérience dans le BTP</h3>
+                    <h4>Bâtiment et travaux publics</h4>
                     <p>
-                        Travail en équipe, respect des consignes,
-                        organisation et adaptation à un environnement
-                        professionnel technique.
+                        Participation aux activités de chantier,
+                        respect des consignes et travail en équipe.
                     </p>
+                </div>
+            </div>
 
+            <div class="experience">
+                <div class="experience-icon">
+                    <i class="fa-solid fa-store"></i>
                 </div>
 
+                <div>
+                    <h3>Vendeur</h3>
+                    <h4>Domia — Guadeloupe</h4>
+                    <p>
+                        Accueil, conseil et accompagnement des clients.
+                    </p>
+                </div>
             </div>
 
         </div>
@@ -719,89 +309,64 @@
     </section>
 
 
-    <!-- ================= FORMATION ================= -->
+    <!-- PROJETS -->
+    <section id="projets" class="section">
 
-    <section id="formation">
-
-        <div class="section-title">
-
-            <span class="section-code">
-                FILE_05
-            </span>
-
-            <h2>
-                Ma <span>formation</span>
-            </h2>
-
-            <p>
-                EDUCATION RECORDS
-            </p>
-
+        <div class="titre-section">
+            <p>05 — MES RÉALISATIONS</p>
+            <h2>MES <span>PROJETS</span></h2>
         </div>
 
+        <div class="projets-container">
 
-        <div class="education">
+            <div class="projet">
+                <div class="projet-image projet-image-1">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
 
+                <div class="projet-contenu">
+                    <span class="projet-categorie">DÉVELOPPEMENT WEB</span>
+                    <h3>Création de mon portfolio</h3>
+                    <p>
+                        Conception d'un site web personnel avec HTML et CSS
+                        pour présenter mon parcours, mes compétences et
+                        mes projets.
+                    </p>
+                    <span class="projet-tag">HTML • CSS</span>
+                </div>
+            </div>
 
-            <div class="education-card">
+            <div class="projet">
+                <div class="projet-image projet-image-2">
+                    <i class="fa-brands fa-linux"></i>
+                </div>
 
-                <div class="education-icon">
+                <div class="projet-contenu">
+                    <span class="projet-categorie">SYSTÈMES</span>
+                    <h3>Découverte de Linux</h3>
+                    <p>
+                        Initiation à Ubuntu, découverte des commandes
+                        du terminal et de l'environnement Linux.
+                    </p>
+                    <span class="projet-tag">Linux • Ubuntu</span>
+                </div>
+            </div>
+
+            <div class="projet">
+                <div class="projet-image projet-image-3">
                     <i class="fa-solid fa-network-wired"></i>
                 </div>
 
-                <div>
-
-                    <span class="archive">
-                        CURRENT
-                    </span>
-
-                    <h3>
-                        BTS SIO – Option SISR
-                    </h3>
-
-                    <div class="date">
-                        FORMATION EN COURS
-                    </div>
-
+                <div class="projet-contenu">
+                    <span class="projet-categorie">RÉSEAUX</span>
+                    <h3>Apprentissage des réseaux</h3>
                     <p>
-                        Formation orientée vers les systèmes,
-                        les réseaux, l'administration informatique,
-                        le support et la cybersécurité.
+                        Découverte des notions fondamentales :
+                        adressage IP, protocoles et fonctionnement
+                        des réseaux informatiques.
                     </p>
-
+                    <span class="projet-tag">Réseaux • TCP/IP</span>
                 </div>
-
-            </div>
-
-
-            <div class="education-card">
-
-                <div class="education-icon">
-                    <i class="fa-solid fa-graduation-cap"></i>
-                </div>
-
-                <div>
-
-                    <span class="archive">
-                        COMPLETED
-                    </span>
-
-                    <h3>
-                        Baccalauréat STI2D
-                    </h3>
-
-                    <div class="date">
-                        OPTION ARCHITECTURE
-                    </div>
-
-                    <p>
-                        Formation technologique développant
-                        des compétences techniques, de conception
-                        et de gestion de projets.
-                    </p>
-
-                </div>
-
             </div>
 
         </div>
@@ -809,181 +374,58 @@
     </section>
 
 
-    <!-- ================= CV ================= -->
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
 
-    <section id="cv">
-
-        <div class="section-title">
-
-            <span class="section-code">
-                FILE_06
-            </span>
-
-            <h2>
-                Mon <span>CV</span>
-            </h2>
-
-            <p>
-                PERSONNEL FILE
-            </p>
-
+        <div class="titre-section">
+            <p>06 — PRENONS CONTACT</p>
+            <h2>CONTACT <span>ME</span></h2>
         </div>
 
-
-        <div class="cv-container">
-
-            <div class="classified-box">
-
-                <div class="pdf-icon">
-                    <i class="fa-solid fa-file-pdf"></i>
-                </div>
-
-                <span>
-                    CONFIDENTIAL DOCUMENT
-                </span>
-
-                <h3>
-                    CURRICULUM VITAE
-                </h3>
-
-                <p>
-                    Consultez mon CV pour découvrir
-                    mon parcours et mes expériences.
-                </p>
-
-                <a href="cv.pdf"
-                   class="btn btn-primary"
-                   target="_blank">
-
-                    <i class="fa-solid fa-file-arrow-down"></i>
-                    Ouvrir le CV
-
-                </a>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= CONTACT ================= -->
-
-    <section id="contact">
-
-        <div class="section-title">
-
-            <span class="section-code">
-                FILE_07
-            </span>
-
-            <h2>
-                Me <span>contacter</span>
-            </h2>
-
-            <p>
-                COMMUNICATION CHANNEL
-            </p>
-
-        </div>
-
-
-        <div class="contact-box">
-
-            <div class="warning">
-
-                <span class="status-dot"></span>
-
-                CONNECTION ESTABLISHED
-
-            </div>
-
-            <h3>
-                ESTABLISH COMMUNICATION
-            </h3>
-
-            <p>
-                Vous souhaitez échanger avec moi pour
-                une opportunité professionnelle,
-                une alternance ou simplement discuter
-                informatique ?
-            </p>
-
-
-            <div class="contact-links">
-
-                <!-- REMPLACE TON EMAIL -->
-
-                <a href="mailto:reeverpaul@email.com"
-                   class="contact-link">
-
-                    <i class="fa-solid fa-envelope"></i>
-
-                    <span>
-                        E-MAIL
-                    </span>
-
-                </a>
-
-
-                <!-- REMPLACE TON LIEN LINKEDIN -->
-
-                <a href="www.linkedin.com/in/reever-firmin-90271927b"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="contact-link">
-
-                    <i class="fa-brands fa-linkedin"></i>
-
-                    <span>
-                        LINKEDIN
-                    </span>
-
-                </a>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= FOOTER ================= -->
-
-    <footer>
-
-        <div class="footer-line"></div>
-
-        <p>
-            © 2026
-            <span>Reever Firmin</span>
-            — S.T.A.R.S. // SYSTEMS & NETWORKS
+        <p class="contact-intro">
+            Vous souhaitez échanger avec moi ou me proposer
+            une opportunité de stage ? N'hésitez pas à me contacter.
         </p>
 
-        <small>
-            PERSONNEL DATABASE // ACCESS GRANTED
-        </small>
+        <div class="contact-container">
 
+            <a href="mailto:reeverpaul@gmail.com" class="contact-card">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Email</h3>
+                <p>reeverpaul@gmail.com</p>
+            </a>
+
+            <a href="https://www.linkedin.com/in/reever-firmin-90271927b/"
+               target="_blank" rel="noopener noreferrer" class="contact-card">
+                <i class="fa-brands fa-linkedin"></i>
+                <h3>LinkedIn</h3>
+                <p>Retrouvez mon profil professionnel</p>
+            </a>
+
+        </div>
+
+        <div class="contact-stage">
+            <i class="fa-solid fa-briefcase"></i>
+            <div>
+                <h3>À LA RECHERCHE D'UN STAGE</h3>
+                <p>24 mai — 2 juillet 2027 | BTS SIO SISR</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#accueil" class="footer-logo">REEVER<span>.</span></a>
+
+        <p>© 2026 Reever Firmin — Portfolio BTS SIO SISR</p>
+
+        <a href="#accueil" class="retour-haut">
+            Retour en haut <i class="fa-solid fa-arrow-up"></i>
+        </a>
     </footer>
 
-
-    <!-- ================= SCRIPT ================= -->
-
-    <script>
-
-        window.addEventListener("load", function () {
-
-            setTimeout(function () {
-
-                document.querySelector(".loading-screen")
-                    .classList.add("hidden");
-
-            }, 1800);
-
-        });
-
-    </script>
-
 </body>
-
 </html>
+```
